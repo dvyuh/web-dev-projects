@@ -1,0 +1,31 @@
+#container {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+button {
+  font-size: 1.5rem;
+  padding: 10px, 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+input {
+  font-size: 2rem;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+}
+#diceresult {
+  margin: 25px;
+}
+#diceimages img {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}

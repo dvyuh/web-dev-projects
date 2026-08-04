@@ -1,0 +1,81 @@
+
+  .thumb {
+   width: 100%;
+    display: block;
+  }
+  .tit {
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 11px;
+  }
+  .cp {
+    width: 50px;
+    vertical-align: top;
+  }
+  .name,
+  .stat {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+  }
+  .name {
+    margin-bottom: 4px;
+  }
+  .pp {
+    width: 50px;
+    border-radius: 40px;
+  }
+  .vigrid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  .vi {
+    width: 200px;
+  }
+  .thumrow {
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .vidgrid
+  {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+  }
+  @media(max-width: 500px) { 
+    .vidgrid{
+        grid-template-columns: 1fr;}
+    }
+  @media(max-width: 750px) { 
+    .vidgrid{
+        grid-template-columns: 1fr 1fr;}
+  }
+  @media (min-width:751px) and (max-width:999px){
+    .vidgrid{
+        grid-template-columns: 1fr 1fr 1fr;}
+    }
+@media (min-width:1000px){
+    .vidgrid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;}
+    }
+  .vidtim{
+    background-color: black;
+    color: white;
+    position:absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    border-radius: 6px  ;
+    -webkit-border-radius: 6px  ;
+    -moz-border-radius: 6px  ;
+    -ms-border-radius: 6px  ;
+    -o-border-radius: 6px  ;
+}
